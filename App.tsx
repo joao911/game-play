@@ -1,11 +1,19 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {StatusBar} from 'react-native';
+
 import Signin from './src/srceens/Signin';
 
-// import { Container } from './styles';
-
 const gameplay: React.FC = () => {
-  return <Signin />;
+  return (
+    <>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <Signin />
+    </>
+  );
 };
 
 export default gameplay;

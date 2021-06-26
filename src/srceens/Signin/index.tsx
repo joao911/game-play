@@ -1,5 +1,4 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
 
 import {Container, Image, Content, Title, SubTitle} from './styles';
 
@@ -9,11 +8,6 @@ import ButtonIcons from '../../components/ButtonIcons';
 const Signin: React.FC = () => {
   return (
     <Container>
-      <StatusBar
-        barStyle="dark-content"
-        backgroundColor="transparent"
-        translucent
-      />
       <Image source={Illustration} resizeMode="stretch" />
       <Content>
         <Title>
