@@ -1,8 +1,8 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import Home from './src/srceens/Home';
 
-import Signin from './src/srceens/Signin';
+import {Routes} from './src/routes';
+
 const gameplay: React.FC = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const gameplay: React.FC = () => {
         backgroundColor="transparent"
         translucent
       />
-      <Home />
+      <Routes />
     </>
   );
 };
