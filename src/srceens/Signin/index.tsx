@@ -17,7 +17,7 @@ const Signin: React.FC = () => {
       <Image source={Illustration} resizeMode="stretch" />
       <Content>
         <Title>
-          Organize{'\n'} suas jogatinas {'\n'}facilmente
+          Conecte-se {'\n'} e organize suas {'\n'}jogatinas
         </Title>
         <SubTitle>
           Crie grupos para jogar seus games{'\n'} favoritos com seus amigos
