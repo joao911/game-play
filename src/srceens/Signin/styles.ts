@@ -6,6 +6,7 @@ export const Container = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+  background-color: ${colors.secondary100};
 `;
 
 export const Image = styled.Image`
@@ -23,7 +24,6 @@ export const Title = styled.Text`
   text-align: center;
   font-size: ${rh(40)}px;
   margin-bottom: ${rh(16)}px;
-  font-weight: 700;
 `;
 
 export const SubTitle = styled.Text`
@@ -31,5 +31,4 @@ export const SubTitle = styled.Text`
   text-align: center;
   font-size: ${rh(15)}px;
   margin-bottom: ${rh(64)}px;
-  font-weight: 500;
 `;
